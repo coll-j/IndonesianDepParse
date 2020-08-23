@@ -1,0 +1,18 @@
+1	Banyak	NUM	2	nummod
+2	buku	NN	5	obj
+3	telah	ADV	5	advmod
+4	saya	PR	5	nsubj
+5	baca	VB	0	root
+
+1	Buku	NN	4	nsubj
+2	ini	PR	1	nmod
+3	telah	ADV	4	advmod
+4	dibaca	VB	0	root
+
+1	Kita	PR	3	nsubj
+2	sedang	ADV	3	advmod
+3	berada	VB	0	root
+4	di	IN	6	appos
+5	dalam	NN	6	advmod
+6	ruangan	NN	3	obj
+7	.	SYM	3	punct

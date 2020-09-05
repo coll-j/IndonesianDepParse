@@ -18,3 +18,27 @@
 16	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 17	Indonesia	indonesia	PROPN	NSD	Number=Sing	14	appos	_	SpaceAfter=No|MorphInd=^indonesia<n>_NSD$
 18	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
+
+# sent_id = train-s2
+# text = Sebuah serangan pengayauan biasanya terjadi di ladang atau dengan membakar sebuah rumah dan memenggal semua penghuninya ketika mereka melarikan diri.
+1	Sebuah	sebuah	DET	B--	PronType=Ind	2	det	_	MorphInd=^sebuah<b>_B--$
+2	serangan	serangan	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^serang<v>+an_NSD$
+3	pengayauan	pengayauan	NOUN	X--	_	2	compound	_	MorphInd=^pengayauan<x>_X--$
+4	biasanya	biasanya	ADV	D--	_	5	advmod	_	MorphInd=^biasanya<d>_D--$
+5	terjadi	terjadi	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^terjadi<v>_VSP$
+6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
+7	ladang	ladang	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^ladang<n>_NSD$
+8	atau	atau	CCONJ	H--	_	7	cc	_	MorphInd=^atau<h>_H--$
+9	dengan	dengan	ADP	R--	_	10	case	_	MorphInd=^dengan<r>_R--$
+10	membakar	menbakar	VERB	VSA	Number=Sing|Voice=Act	7	acl	_	MorphInd=^meN+bakar<v>_VSA$
+11	sebuah	sebuah	DET	B--	PronType=Ind	12	det	_	MorphInd=^sebuah<b>_B--$
+12	rumah	rumah	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^rumah<n>_NSD$
+13	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
+14	memenggal	memenggal	VERB	X--	_	10	conj	_	MorphInd=^memenggal<x>_X--$
+15	semua	semua	DET	B--	PronType=Tot	16	det	_	MorphInd=^semua<b>_B--$
+16	penghuninya	penhuni	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obj	_	MorphInd=^peN+huni<v>_NSD+dia<p>_PS3$
+17	ketika	ketika	SCONJ	S--	_	19	mark	_	MorphInd=^ketika<s>_S--$
+18	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	MorphInd=^mereka<p>_PP3$
+19	melarikan	menlarikan	VERB	VSA	Number=Sing|Voice=Act	14	advcl	_	MorphInd=^meN+lari<v>+kan_VSA$
+20	diri	diri	NOUN	NSD	Number=Sing	19	obj	_	SpaceAfter=No|MorphInd=^diri<n>_NSD$
+21	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
